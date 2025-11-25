@@ -217,8 +217,6 @@ def get_race_telemetry(session):
                 "position": position,
             }
 
-        print(f'Current Time {t}')
-
         frames.append({
             "t": float(t),
             "lap": leader_lap,   # leader’s lap at this time
