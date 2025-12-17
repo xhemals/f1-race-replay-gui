@@ -33,6 +33,7 @@ Recently added support for Qualifying session replays with telemetry visualizati
 - numpy
 
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,16 +43,19 @@ FastF1 cache folder will be created automatically on first run. If it is not cre
 ## Usage
 
 Run the main script and specify the year and round:
+
 ```bash
 python main.py --year 2025 --round 12
 ```
 
 To run a Sprint session (if the event has one), add `--sprint`:
+
 ```bash
 python main.py --year 2025 --round 12 --sprint
 ```
 
 The application will load a pre-computed telemetry dataset if you have run it before for the same event. To force re-computation of telemetry data, use the `--refresh-data` flag:
+
 ```bash
 python main.py --year 2025 --round 12 --refresh-data
 ```
@@ -59,11 +63,13 @@ python main.py --year 2025 --round 12 --refresh-data
 ### Search Round Numbers (including Sprints)
 
 To find the round number for a specific Grand Prix event, you can use the `--list-rounds` flag along with the year to return a list of events and their corresponding round numbers:
+
 ```bash
 python main.py --year 2025 --list-rounds
 ```
 
 To return a list of events that include Sprint sessions, use the `--list-sprints` flag:
+
 ```bash
 python main.py --year 2025 --list-sprints
 ```
@@ -71,11 +77,13 @@ python main.py --year 2025 --list-sprints
 ### Qualifying Session Replay
 
 To run a Qualifying session replay, use the `--qualifying` flag:
+
 ```bash
 python main.py --year 2025 --round 12 --qualifying
 ```
 
 To run a Sprint Qualifying session (if the event has one), add `--sprint`:
+
 ```bash
 python main.py --year 2025 --round 12 --qualifying --sprint
 ```
@@ -113,12 +121,9 @@ f1-race-replay/
 
 There have been serveral contributions from the community that have helped enhance this project. I have added a [contributors.md](./contributors.md) file to acknowledge those who have contributed features and improvements.
 
-If you would like to contribute, feel free to:
-
-- Open pull requests for UI improvements or new features.
-- Report issues on GitHub.
-
 Please see [roadmap.md](./roadmap.md) for planned features and project vision.
+
+For contributing to the project, please see [CONTRIBUTING.md](./CONTRIBUTING.md). And look for issues labeled as `good first issue` or `help wanted` to get started.
 
 # Known Issues
 
