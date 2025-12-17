@@ -6,6 +6,18 @@ Please read through this document before submitting any issues or pull requests 
 
 To read about setting up your development environment, please refer to the [development-setup.md](docs/contributing/development-setup.md) file.
 
+## Table of Contents
+- [Contributing Guidelines](#contributing-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [Reporting Bugs/Feature Requests](#reporting-bugsfeature-requests)
+  - [Contributing via Pull Requests](#contributing-via-pull-requests)
+  - [Commit Message Format](#commit-message-format)
+    - [Examples:](#examples)
+  - [Coding Style](#coding-style)
+    - [Typescript](#typescript)
+    - [Python](#python)
+
+
 ## Reporting Bugs/Feature Requests
 
 We welcome you to use the GitHub issue tracker to report bugs or suggest features.
