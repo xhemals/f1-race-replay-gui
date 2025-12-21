@@ -77,3 +77,40 @@ footer {
   justify-content: center;
   margin-bottom: 5px;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  padding: 1rem;
+  margin-top: 1.25rem;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: #1f2937;
+  cursor: pointer;
+}
+
+.card.year {
+  width: 96px;
+  height: 96px;
+}
+
+.card.race {
+  width: 350px;
+  height: 150px;
+}
+
+.event {
+  text-align: left;
+}
+
+.event.official-name,
+.event.round-number {
+  color: gray;
+  font-size: 0.8rem;
+}
